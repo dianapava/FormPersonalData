@@ -13,6 +13,10 @@
 		D20D97CD2B9A549900EECB5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D20D97CC2B9A549900EECB5B /* Base */; };
 		D20D97CF2B9A549B00EECB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20D97CE2B9A549B00EECB5B /* Assets.xcassets */; };
 		D20D97D22B9A549B00EECB5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D20D97D12B9A549B00EECB5B /* Base */; };
+		D20D97DB2B9A561100EECB5B /* FormPagePersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D97DA2B9A561100EECB5B /* FormPagePersonalDataViewController.swift */; };
+		D20D97DD2B9A563000EECB5B /* FormPagePersonalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D97DC2B9A563000EECB5B /* FormPagePersonalDataView.swift */; };
+		D20D97DF2B9A566600EECB5B /* FormPagePersonalDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D97DE2B9A566600EECB5B /* FormPagePersonalDataPresenter.swift */; };
+		D20D97E12B9A569000EECB5B /* FormPagePersonalDataTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D97E02B9A569000EECB5B /* FormPagePersonalDataTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D20D97CE2B9A549B00EECB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D20D97D12B9A549B00EECB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D20D97D32B9A549B00EECB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20D97DA2B9A561100EECB5B /* FormPagePersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPagePersonalDataViewController.swift; sourceTree = "<group>"; };
+		D20D97DC2B9A563000EECB5B /* FormPagePersonalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPagePersonalDataView.swift; sourceTree = "<group>"; };
+		D20D97DE2B9A566600EECB5B /* FormPagePersonalDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPagePersonalDataPresenter.swift; sourceTree = "<group>"; };
+		D20D97E02B9A569000EECB5B /* FormPagePersonalDataTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPagePersonalDataTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		D20D97C42B9A549900EECB5B /* FormPersonalData */ = {
 			isa = PBXGroup;
 			children = (
+				D20D97D92B9A55E900EECB5B /* FormPagePersonalData */,
 				D20D97C52B9A549900EECB5B /* AppDelegate.swift */,
 				D20D97C72B9A549900EECB5B /* SceneDelegate.swift */,
 				D20D97C92B9A549900EECB5B /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				D20D97D32B9A549B00EECB5B /* Info.plist */,
 			);
 			path = FormPersonalData;
+			sourceTree = "<group>";
+		};
+		D20D97D92B9A55E900EECB5B /* FormPagePersonalData */ = {
+			isa = PBXGroup;
+			children = (
+				D20D97DA2B9A561100EECB5B /* FormPagePersonalDataViewController.swift */,
+				D20D97DC2B9A563000EECB5B /* FormPagePersonalDataView.swift */,
+				D20D97DE2B9A566600EECB5B /* FormPagePersonalDataPresenter.swift */,
+				D20D97E02B9A569000EECB5B /* FormPagePersonalDataTextView.swift */,
+			);
+			path = FormPagePersonalData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20D97CA2B9A549900EECB5B /* ViewController.swift in Sources */,
+				D20D97DD2B9A563000EECB5B /* FormPagePersonalDataView.swift in Sources */,
+				D20D97DB2B9A561100EECB5B /* FormPagePersonalDataViewController.swift in Sources */,
 				D20D97C62B9A549900EECB5B /* AppDelegate.swift in Sources */,
 				D20D97C82B9A549900EECB5B /* SceneDelegate.swift in Sources */,
+				D20D97E12B9A569000EECB5B /* FormPagePersonalDataTextView.swift in Sources */,
+				D20D97DF2B9A566600EECB5B /* FormPagePersonalDataPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
